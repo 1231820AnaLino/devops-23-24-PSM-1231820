@@ -60,7 +60,7 @@ public class Employee {
             return false;
         if (jobYears < 0)
             return false;
-        if (emailField == null || emailField.isEmpty())
+        if (emailField == null || emailField.isEmpty() || !emailField.contains("@"))
             return false;
 
         return true;

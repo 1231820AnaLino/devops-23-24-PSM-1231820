@@ -64,6 +64,9 @@ class EmployeeTest {
         assertThrows(IllegalArgumentException.class, () -> {
             new Employee("Joaquim", "Sequeira", "Doctor", 35, "");
         });
+        assertThrows(IllegalArgumentException.class, () -> {
+            new Employee("Joaquim", "Sequeira", "Doctor", 35, "joaquimgamil.com");
+        });
     }
 
     @Test
