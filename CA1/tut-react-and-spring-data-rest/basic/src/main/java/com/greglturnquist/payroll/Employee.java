@@ -35,21 +35,23 @@ public class Employee {
     private String description;
 
     private int jobYears;
+    private String emailField;
 
     private Employee() {
     }
 
-    public Employee(String firstName, String lastName, String description, int jobYears) {
-        if (!validConstructorArguments(firstName, lastName, description, jobYears)) {
+    public Employee(String firstName, String lastName, String description, int jobYears, String emailField) {
+        if (!validConstructorArguments(firstName, lastName, description, jobYears, emailField)) {
             throw new IllegalArgumentException("Invalid parameters");
         }
         this.firstName = firstName;
         this.lastName = lastName;
         this.description = description;
         this.jobYears = jobYears;
+        this.emailField = emailField;
     }
 
-    private boolean validConstructorArguments(String firstName, String lastName, String description, int jobYears) {
+    private boolean validConstructorArguments(String firstName, String lastName, String description, int jobYears, String emailField) {
         if (firstName == null || firstName.isEmpty())
             return false;
         if (lastName == null || lastName.isEmpty())
@@ -57,6 +59,8 @@ public class Employee {
         if (description == null || description.isEmpty())
             return false;
         if (jobYears < 0)
+            return false;
+        if (emailField == null || emailField.isEmpty())
             return false;
 
         return true;
@@ -71,13 +75,15 @@ public class Employee {
                 Objects.equals(firstName, employee.firstName) &&
                 Objects.equals(lastName, employee.lastName) &&
                 Objects.equals(description, employee.description) &&
-                Objects.equals(jobYears, employee.jobYears);
+                Objects.equals(jobYears, employee.jobYears) &&
+                Objects.equals(emailField, employee.emailField);
     }
+
 
     @Override
     public int hashCode() {
 
-        return Objects.hash(id, firstName, lastName, description, jobYears);
+        return Objects.hash(id, firstName, lastName, description, jobYears, emailField);
     }
 
     public Long getId() {
@@ -120,6 +126,15 @@ public class Employee {
         this.jobYears = jobYears;
     }
 
+
+    public String getEmailField() {
+        return emailField;
+    }
+
+    public void setEmailField(String emailField) {
+        this.emailField = emailField;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -127,7 +142,8 @@ public class Employee {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", description='" + description + '\'' +
-                ", jobYears='" + jobYears + '\''+
+                ", jobYears='" + jobYears + '\'' +
+                ", emailField='" + emailField + '\'' +
                 '}';
     }
 }

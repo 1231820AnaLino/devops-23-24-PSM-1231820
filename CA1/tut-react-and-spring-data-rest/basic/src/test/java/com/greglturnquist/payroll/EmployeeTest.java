@@ -11,7 +11,7 @@ class EmployeeTest {
 
     @BeforeEach
     void setUp() {
-        employee = new Employee("Joaquim", "Sequeira", "Doctor", 35);
+        employee = new Employee("Joaquim", "Sequeira", "Doctor", 35, "joaquim@gmail.com");
     }
 
     @Test
@@ -22,44 +22,54 @@ class EmployeeTest {
     @Test
     public void employeeConstructorInvalidFirstName() {
         assertThrows(IllegalArgumentException.class, () -> {
-            new Employee(null, "Sequeira", "Doctor", 35);
+            new Employee(null, "Sequeira", "Doctor", 35, "joaquim@gmail.com");
         });
         assertThrows(IllegalArgumentException.class, () -> {
-            new Employee("", "Sequeira", "Doctor", 35);
+            new Employee("", "Sequeira", "Doctor", 35, "joaquim@gmail.com");
         });
     }
 
     @Test
     public void employeeConstructorInvalidLastName() {
         assertThrows(IllegalArgumentException.class, () -> {
-            new Employee("Joaquim", null, "Doctor", 35);
+            new Employee("Joaquim", null, "Doctor", 35, "joaquim@gmail.com");
         });
         assertThrows(IllegalArgumentException.class, () -> {
-            new Employee("Joaquim", "", "Doctor", 35);
+            new Employee("Joaquim", "", "Doctor", 35, "joaquim@gmail.com");
         });
     }
 
     @Test
     public void employeeConstructorInvalidDescription() {
         assertThrows(IllegalArgumentException.class, () -> {
-            new Employee("Joaquim", "Sequeira", null, 35);
+            new Employee("Joaquim", "Sequeira", null, 35, "joaquim@gmail.com");
         });
         assertThrows(IllegalArgumentException.class, () -> {
-            new Employee("Joaquim", "Sequeira", "", 35);
+            new Employee("Joaquim", "Sequeira", "", 35, "joaquim@gmail.com");
         });
     }
 
     @Test
     public void employeeConstructorInvalidJobYears() {
         assertThrows(IllegalArgumentException.class, () -> {
-            new Employee("Joaquim", "Sequeira", "Doctor", -1);
+            new Employee("Joaquim", "Sequeira", "Doctor", -1, "joaquim@gmail.com");
+        });
+    }
+
+    @Test
+    public void employeeConstructorInvalidEmail() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            new Employee("Joaquim", "Sequeira", "Doctor", 35, null);
+        });
+        assertThrows(IllegalArgumentException.class, () -> {
+            new Employee("Joaquim", "Sequeira", "Doctor", 35, "");
         });
     }
 
     @Test
     public void employeeEquals() {
-        Employee employee1 = new Employee("Joaquim", "Sequeira", "Doctor", 35);
-        Employee employee2 = new Employee("Quim", "Sequeira", "Doctor", 35);
+        Employee employee1 = new Employee("Joaquim", "Sequeira", "Doctor", 35, "joaquim@gmail.com");
+        Employee employee2 = new Employee("Quim", "Sequeira", "Doctor", 35, "joaquim@gmail.com");
         assertTrue(employee.equals(employee1));
         assertFalse(employee.equals(employee2));
     }
@@ -123,25 +133,36 @@ class EmployeeTest {
         assertEquals(36, employee.getJobYears());
     }
 
+    @Test
+    void getEmailField() {
+        assertEquals("joaquim@gmail.com", employee.getEmailField());
+    }
+
+    @Test
+    void setEmailField() {
+        employee.setEmailField("joaquim@gmail.com");
+        assertEquals("joaquim@gmail.com", employee.getEmailField());
+    }
+
 
     @Test
     void testToString() {
         long idExpected = 123;
         employee.setId(idExpected);
-        String expected = "Employee{id=123, firstName='Joaquim', lastName='Sequeira', description='Doctor', jobYears='35'}";
+        String expected = "Employee{id=123, firstName='Joaquim', lastName='Sequeira', description='Doctor', jobYears='35', emailField='joaquim@gmail.com'}";
         String result = employee.toString();
         assertEquals(expected, result);
     }
 
     @Test
     void testHashCodeConsistency() {
-        Employee employee1 = new Employee("Joaquim", "Sequeira", "Doctor", 35);
+        Employee employee1 = new Employee("Joaquim", "Sequeira", "Doctor", 35, "joaquim@gmail.com");
         assertEquals(employee.hashCode(), employee1.hashCode());
     }
 
     @Test
     void testHashCodeInconsistency() {
-        Employee employee1 = new Employee("Eduardo", "Lopes", "Engineer", 5);
+        Employee employee1 = new Employee("Eduardo", "Lopes", "Engineer", 5, "joaquim@gmail.com");
 
         assertNotEquals(employee.hashCode(), employee1.hashCode());
     }

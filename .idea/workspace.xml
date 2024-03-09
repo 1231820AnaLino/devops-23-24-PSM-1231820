@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c38e577-36bb-4e79-b5f4-8779929dcd4e" name="Changes" comment="Move the tutorials code into the CA1">
-      <change afterPath="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/src/test/java/com/greglturnquist/payroll/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/src/main/java/com/greglturnquist/payroll/DatabaseLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/src/main/java/com/greglturnquist/payroll/DatabaseLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/src/main/java/com/greglturnquist/payroll/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/src/main/java/com/greglturnquist/payroll/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/src/main/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/src/main/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/src/test/java/com/greglturnquist/payroll/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/src/test/java/com/greglturnquist/payroll/EmployeeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "email-field",
     "last_opened_file_path": "/Users/analino/Desktop/Switch/2Semestre/Devops/Pratica/devops-23-24-PSM-1231820",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,7 +68,7 @@
       <recent name="com.greglturnquist.payroll" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest">
+  <component name="RunManager" selected="Spring Boot.ReactAndSpringDataRestApplication">
     <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="react-and-spring-data-rest-basic" />
       <extension name="coverage">
@@ -126,7 +124,7 @@
       <workItem from="1709937525198" duration="56000" />
       <workItem from="1709937807769" duration="826000" />
       <workItem from="1709938675517" duration="4527000" />
-      <workItem from="1709981854763" duration="1989000" />
+      <workItem from="1709981854763" duration="4329000" />
     </task>
     <task id="LOCAL-00001" summary="Update the gitignore file">
       <option name="closed" value="true" />
@@ -165,6 +163,17 @@
     <MESSAGE value="Update the gitignore file" />
     <MESSAGE value="Move the tutorials code into the CA1" />
     <option name="LAST_COMMIT_MESSAGE" value="Move the tutorials code into the CA1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/src/test/java/com/greglturnquist/payroll/EmployeeTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/devops_23_24_PSM_1231820$ReactAndSpringDataRestApplication.ic" NAME="ReactAndSpringDataRestApplication Coverage Results" MODIFIED="1709982322769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
