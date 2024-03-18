@@ -71,3 +71,9 @@ task runServer(type:JavaExec, dependsOn: classes){
     args '59001'
 }
 
+task backupSources(type: Copy) {
+    from 'src/main'
+    into 'backup'
+}
+
+
