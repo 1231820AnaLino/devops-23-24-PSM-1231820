@@ -182,4 +182,5 @@ psd
 thumb
 sketch
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,maven,react,intellij
+# End of https://www.toptal.com/developers/gitignore/api/macos,maven,react,intellij# GitHub Copilot persisted chat sessions
+/copilot/chatSessions
