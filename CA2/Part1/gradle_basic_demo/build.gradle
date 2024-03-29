@@ -27,6 +27,7 @@ dependencies {
     implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.2'
     implementation 'junit:junit:4.13.1'
     implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+    testImplementation 'junit:junit:4.12'
 }
  
 
@@ -47,7 +48,16 @@ jar {
     }
 }
 
+// Define task for running unit tests
+test {
+    // Set test classes directory
+    testClassesDirs = sourceSets.test.output.classesDirs
+    // Set classpath for tests
+    classpath = sourceSets.test.runtimeClasspath
+}
 
+// Ensure that test task runs when building the project
+build.dependsOn test
 
 task runClient(type:JavaExec, dependsOn: classes){
     group = "DevOps"
@@ -75,5 +85,19 @@ task backupSources(type: Copy) {
     from 'src/main'
     into 'backup'
 }
+
+
+task zip(type: Zip) {
+    group = "DevOps"
+    description = "Zips the chat server log file."
+
+    from 'src/main'
+    archiveFileName = 'src.zip'
+    destinationDirectory = file('build')
+}
+
+
+
+
 
 
