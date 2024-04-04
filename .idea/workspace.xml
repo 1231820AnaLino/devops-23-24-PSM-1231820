@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c38e577-36bb-4e79-b5f4-8779929dcd4e" name="Changes" comment="Closes #11. Adding and update of the README file into the CA1">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4c38e577-36bb-4e79-b5f4-8779929dcd4e" name="Changes" comment="Closes #11. Adding and update of the README file into the CA1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,7 +256,7 @@
       <workItem from="1710417048522" duration="3055000" />
       <workItem from="1710778019387" duration="5041000" />
       <workItem from="1711015761709" duration="7079000" />
-      <workItem from="1711746822693" duration="40000" />
+      <workItem from="1711746822693" duration="4169000" />
     </task>
     <task id="LOCAL-00001" summary="Update the gitignore file">
       <option name="closed" value="true" />
