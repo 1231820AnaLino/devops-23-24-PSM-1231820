@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c38e577-36bb-4e79-b5f4-8779929dcd4e" name="Changes" comment="Closes #11. Adding and update of the README file into the CA1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4c38e577-36bb-4e79-b5f4-8779929dcd4e" name="Changes" comment="#19. Update build gradle" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +12,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/CA2/Part1/gradle_basic_demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic">
       <ProjectState />
     </projectState>
   </component>
@@ -54,40 +55,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;tut-basic-gradle&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/analino/Desktop/Switch/2Semestre/Devops/Pratica/devops-23-24-PSM-1231820&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "tut-basic-gradle",
+    "last_opened_file_path": "/Users/analino/Desktop/Switch/2Semestre/Devops/Pratica/devops-23-24-PSM-1231820/CA2/Part2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CA2/Part2" />
+      <recent name="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="basic_demo" />
       <recent name="com.greglturnquist.payroll" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Gradle.gradle_basic_demo [zip]">
     <configuration name="gradle_basic_demo [backupSources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -200,6 +215,13 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="ReactAndSpringDataRestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Part2.react-and-spring-data-rest-basic.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.greglturnquist.payroll.ReactAndSpringDataRestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReactAndSpringDataRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <module name="react-and-spring-data-rest-basic" />
@@ -225,6 +247,7 @@
       <item itemvalue="Gradle.gradle_basic_demo [backupSources]" />
       <item itemvalue="Gradle.gradle_basic_demo [runServer]" />
       <item itemvalue="npm.watch" />
+      <item itemvalue="Spring Boot.ReactAndSpringDataRestApplication (1)" />
       <item itemvalue="Spring Boot.ReactAndSpringDataRestApplication" />
     </list>
     <recent_temporary>
@@ -261,7 +284,7 @@
       <workItem from="1711746822693" duration="4169000" />
       <workItem from="1712221159545" duration="3552000" />
       <workItem from="1712570606952" duration="388000" />
-      <workItem from="1712695331275" duration="25000" />
+      <workItem from="1712695331275" duration="2966000" />
     </task>
     <task id="LOCAL-00001" summary="Update the gitignore file">
       <option name="closed" value="true" />
@@ -287,7 +310,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710178575593</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Closes #18. The src package was deleted and the another src pakage was copyed from the react-and-spring-data-rest-basic to the new folder.">
+      <option name="closed" value="true" />
+      <created>1712699362675</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712699362675</updated>
+    </task>
+    <task id="LOCAL-00005" summary="#19. Update build gradle">
+      <option name="closed" value="true" />
+      <created>1712700081918</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712700081918</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +359,9 @@
     <MESSAGE value="Update the gitignore file" />
     <MESSAGE value="Move the tutorials code into the CA1" />
     <MESSAGE value="Closes #11. Adding and update of the README file into the CA1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Closes #11. Adding and update of the README file into the CA1" />
+    <MESSAGE value="Closes #18. The src package was deleted and the another src pakage was copyed from the react-and-spring-data-rest-basic to the new folder." />
+    <MESSAGE value="#19. Update build gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="#19. Update build gradle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -332,6 +373,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/devops_23_24_PSM_1231820$ReactAndSpringDataRestApplication.ic" NAME="ReactAndSpringDataRestApplication Coverage Results" MODIFIED="1709982322769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
