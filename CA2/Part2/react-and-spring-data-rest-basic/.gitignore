@@ -159,6 +159,7 @@ buildNumber.properties
 
 ### react ###
 .DS_*
+.DS_Store
 logs
 **/*.backup.*
 **/*.back.*
