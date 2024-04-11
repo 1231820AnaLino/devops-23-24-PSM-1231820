@@ -34,3 +34,10 @@ frontend {
 	cleanScript = "run clean"
 	checkScript = "run check"
 }
+
+task copyJar (type: Copy) {
+	from 'build/libs'
+	into 'dist'
+	include '*.jar'
+}
+
