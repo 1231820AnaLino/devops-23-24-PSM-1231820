@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../../CA2/Part2/react-and-spring-data-rest-basic" dumb="true">
+      <excludeFolder url="file://$MODULE_DIR$/../../CA2/Part2/react-and-spring-data-rest-basic/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/../../CA2/Part2/react-and-spring-data-rest-basic/node/bin" />
+    </content>
+  </component>
+</module>
