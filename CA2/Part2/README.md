@@ -154,6 +154,13 @@ git merge tut-basic-gradle
 git commit -m "Closes #23. Merged tut-basic-gradle branch"
 ``` 
 
+### 17. Mark the repository with the tag ca2-part2 and push the changes
+```
+    git tag ca2-part2
+    git push origin ca2-part2
+```
+
+
 ### Conclusion
 
 In conclusion, this Part 2 of the Class Assignment 2 focused on migrating a basic Spring Boot application from Maven to
