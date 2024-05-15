@@ -134,12 +134,12 @@ spring.h2.console.path=/h2-console
 spring.h2.console.settings.web-allow-others=true
 ```
 
-### 5. To start the VMs go to the directory where the Vagrantfile is located through your terminal and run the following command to start the VMs:
+### 7. To start the VMs go to the directory where the Vagrantfile is located through your terminal and run the following command to start the VMs:
 ```
 vagrant up
 ```
 
-### 6. Test the Spring application and test the H2 console:
+### 8. Test the Spring application and test the H2 console:
 - In the host you can open the spring web application using:
   - http://localhost:8080/  
 
@@ -148,12 +148,12 @@ vagrant up
 
 For the connection string use: jdbc:h2:tcp://192.168.56.11:9092/./jpadb
 
-### 7. To stop the VMs:
+### 9. To stop the VMs:
 ```
 vagrant halt
 ```
 
-### 8. To destroy the VMs:
+### 10. To destroy the VMs:
 ```
 vagrant destroy -f
 ```
@@ -236,3 +236,8 @@ Vagrant.configure("2") do |config|
 end
 ```
 
+### 11. Mark the repository with the tag ca3-part2 and push the changes
+```
+    git tag ca3-part2
+    git push origin ca3-part2
+```
