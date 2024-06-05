@@ -1,0 +1,14 @@
+# Use a base image with JDK
+FROM gradle:jdk21 AS builder
+
+# Changes the working directory to the gradle_basic_demo
+WORKDIR /usr/src/devops/
+
+# Copy the gradle_basic_demo project to the container
+COPY CA2/Part1/gradle_basic_demo/build/libs/basic_demo-0.1.0.jar basic_demo-0.1.0.jar
+
+# Expose the port that the chat server listens on
+EXPOSE 59001
+
+# Run the chat server using a jar file
+ENTRYPOINT ["java","-cp","./basic_demo-0.1.0.jar","basic_demo.ChatServerApp","59001"]

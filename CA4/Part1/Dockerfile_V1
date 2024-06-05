@@ -1,0 +1,17 @@
+# Use a base image with JDK
+FROM gradle:jdk21 as builder
+
+# Set the working directory inside the container
+WORKDIR /usr/src/devops
+
+# Copy the application source code to the container
+COPY CA2/Part1/gradle_basic_demo gradle_basic_demo
+
+# Changes the working directory to the gradle_basic_demo
+WORKDIR /usr/src/devops/gradle_basic_demo
+
+# Expose the port that the chat server listens on
+EXPOSE 59001
+
+# Clear, build and run the chart server
+ENTRYPOINT ["./gradlew", "runServer"]

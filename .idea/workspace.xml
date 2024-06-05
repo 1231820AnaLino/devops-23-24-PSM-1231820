@@ -4,11 +4,586 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c38e577-36bb-4e79-b5f4-8779929dcd4e" name="Changes" comment="Updated files">
-      <change beforePath="$PROJECT_DIR$/.idea/devops-23-24-PSM-1231820.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/devops-23-24-PSM-1231820.iml" afterDir="false" />
+    <list default="true" id="4c38e577-36bb-4e79-b5f4-8779929dcd4e" name="Changes" comment="Closes #28. Update the README file.">
+      <change afterPath="$PROJECT_DIR$/CA4/Part1/Dockerfile_V1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA4/Part1/Dockerfile_V2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA4/Part1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CA4/Part2/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CA2/Part2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/.frontend-gradle-plugin/resolvePackageManager/package-manager-executable-path.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/.frontend-gradle-plugin/resolvePackageManager/package-manager-specification.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/bin/corepack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/bin/node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/bin/npm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/bin/npx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/common.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/cppgc/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/js_native_api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/js_native_api_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/libplatform/libplatform-export.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/libplatform/libplatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/libplatform/v8-tracing.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/node.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/node_api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/node_api_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/node_buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/node_object_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/node_version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/aes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/BSD-x86_64/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN32/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64-ARM/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64-ARM/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64-ARM/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64-ARM/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64-ARM/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/VC-WIN64A/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix-gcc/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/aix64-gcc/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin-i386-cc/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-arm64-cc/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/darwin64-x86_64-cc/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-aarch64/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-armv4/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-elf/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-ppc64le/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x32/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x32/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x32/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x32/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x32/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x32/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux-x86_64/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux32-s390x/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-mips64/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-riscv64/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-riscv64/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-riscv64/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-riscv64/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-riscv64/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/linux64-s390x/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris-x86-gcc/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/asm_avx2/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/asm_avx2/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/asm_avx2/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/asm_avx2/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/asm_avx2/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/no-asm/crypto/buildinf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/no-asm/crypto/include/internal/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/no-asm/crypto/include/internal/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/no-asm/include/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/archs/solaris64-x86_64-gcc/no-asm/include/progs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/asn1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/asn1_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/asn1_mac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/asn1_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/asn1err.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/asn1t.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/asn1t_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/asn1t_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/async.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/asyncerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/bio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/bio_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/bio_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/bioerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/blowfish.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/bn.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/bn_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/bn_conf_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/bn_conf_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/bnerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/buffererr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/camellia.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/cast.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/cmac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/cmp_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/cmp_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/cms.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/cms_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/cms_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/cmserr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/comp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/comperr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/conf_api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/conf_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/conf_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/conferr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/configuration_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/configuration_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/crmf_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/crmf_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/crypto.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/crypto_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/crypto_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/cryptoerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ct_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ct_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/cterr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/des.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/dh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/dherr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/dsa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/dsaerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/dso_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/dso_conf_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/dso_conf_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/dtls1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/e_os2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ebcdic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ecdh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ecdsa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ecerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/engine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/engineerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/err.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/err_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/err_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ess_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ess_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/evp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/evperr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/fipskey_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/fipskey_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/hmac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/idea.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/kdf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/kdferr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/lhash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/lhash_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/lhash_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/md2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/md4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/md5.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/mdc2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/modes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/obj_mac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/objects.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/objectserr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ocsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ocsp_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ocsp_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ocsperr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/opensslconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/opensslconf_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/opensslconf_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/opensslv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/opensslv_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/opensslv_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ossl_typ.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/pem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/pem2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/pemerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/pkcs12.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/pkcs12_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/pkcs12_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/pkcs12err.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/pkcs7.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/pkcs7_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/pkcs7_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/pkcs7err.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/rand.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/rand_drbg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/randerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/rc2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/rc4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/rc5.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ripemd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/rsa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/rsaerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/safestack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/safestack_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/safestack_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/seed.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/sha.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/srp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/srp_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/srp_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/srtp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ssl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ssl2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ssl3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ssl_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ssl_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/sslerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/stack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/store.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/storeerr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/symhacks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/tls1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ts.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/tserr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/txt_db.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ui.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ui_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/ui_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/uierr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/whrlpool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/x509.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/x509_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/x509_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/x509_vfy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/x509_vfy_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/x509_vfy_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/x509err.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/x509v3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/x509v3_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/x509v3_no-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/openssl/x509v3err.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/aix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/android-ifaddrs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/bsd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/darwin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/errno.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/linux.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/os390.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/posix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/stdint-msvc2008.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/sunos.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/threadpool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/tree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/unix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/uv/win.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/v8-internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/v8-platform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/v8-profiler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/v8-version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/v8.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/v8config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/zconf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/include/node/zlib.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/lib/dtrace/node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/share/doc/node/gdbinit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/share/doc/node/lldb_commands.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/share/man/man1/node.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/node/share/systemtap/tapset/node.stp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/java/com/greglturnquist/payroll/DatabaseLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/java/com/greglturnquist/payroll/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/java/com/greglturnquist/payroll/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/java/com/greglturnquist/payroll/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/java/com/greglturnquist/payroll/ReactAndSpringDataRestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/js/api/uriListConverter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/js/api/uriTemplateInterceptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/js/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/resources/static/built/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/resources/static/built/bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/resources/static/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/src/test/java/com/greglturnquist/payroll/EmployeeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CA3/Part2/ubuntu-bionic-18.04-cloudimg-console.log" beforeDir="false" afterPath="$PROJECT_DIR$/CA3/Part2/ubuntu-bionic-18.04-cloudimg-console.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +625,24 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;1231820AnaLino&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:1231820AnaLino/devops-23-24-PSM-1231820.git&quot;,
+    &quot;accountId&quot;: &quot;3270fcc5-ca80-455d-9728-c4dbae9722a5&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -65,6 +657,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.CA4/Part1/Dockerfile builder.executor": "Run",
+    "Docker.Part1/Dockerfile.executor": "Run",
+    "Gradle.Build gradle_basic_demo.executor": "Run",
+    "Gradle.Build react-and-spring-data-rest-basic.executor": "Run",
+    "Gradle.react-and-spring-data-rest-basic [localH2].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -76,23 +673,25 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/analino/Desktop/Switch/2Semestre/Devops/Pratica/devops-23-24-PSM-1231820/CA2/projectWithBuildr",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/analino/Desktop/Switch/2Semestre/Devops/Pratica/devops-23-24-PSM-1231820/CA4/Part1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "ruby.rails.projectView.checked": "true",
     "ruby.structure.view.model.defaults.configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "Docker",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CA4/Part1" />
       <recent name="$PROJECT_DIR$/CA2/projectWithBuildr" />
       <recent name="$PROJECT_DIR$/CA2/Part2" />
       <recent name="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic" />
@@ -116,7 +715,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.EmployeeTest">
+  <component name="RunManager" selected="Gradle.react-and-spring-data-rest-basic [localH2]">
     <configuration name="EmployeeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -139,50 +738,6 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="gradle_basic_demo [backupSources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/CA2/Part1/gradle_basic_demo" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="backupSources" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="gradle_basic_demo [runServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/CA2/Part1/gradle_basic_demo" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runServer" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="gradle_basic_demo [zipSources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -229,8 +784,37 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="react-and-spring-data-rest-basic [localH2]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CA2/Part2/react-and-spring-data-rest-basic" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="localH2" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ReactAndSpringDataRestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Part2.react-and-spring-data-rest-basic.main" />
+      <module name="react-and-spring-data-rest-basic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.greglturnquist.payroll.ReactAndSpringDataRestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReactAndSpringDataRestApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="com.greglturnquist.react-and-spring-data-rest-basic.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.greglturnquist.payroll.ReactAndSpringDataRestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,6 +828,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Part1/Dockerfile_V1: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="gradlejdk17_builder" />
+          <option name="buildCliOptions" value="--target builder" />
+          <option name="sourceFilePath" value="CA4/Part1/Dockerfile_V1" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Part1/Dockerfile_V1: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="CA4/Part1/Dockerfile_V1" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="watch" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/CA1/tut-react-and-spring-data-rest/basic/package.json" />
       <command value="run" />
@@ -255,24 +863,33 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Docker.Part1/Dockerfile_V1: Compose Deployment" />
+      <item itemvalue="Gradle.react-and-spring-data-rest-basic [localH2]" />
       <item itemvalue="Gradle.EmployeeTest" />
       <item itemvalue="Gradle.gradle_basic_demo [zipSources]" />
       <item itemvalue="Gradle.gradle_basic_demo [zip]" />
-      <item itemvalue="Gradle.gradle_basic_demo [backupSources]" />
-      <item itemvalue="Gradle.gradle_basic_demo [runServer]" />
       <item itemvalue="npm.watch" />
+      <item itemvalue="Spring Boot.ReactAndSpringDataRestApplication (2)" />
       <item itemvalue="Spring Boot.ReactAndSpringDataRestApplication (1)" />
       <item itemvalue="Spring Boot.ReactAndSpringDataRestApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.react-and-spring-data-rest-basic [localH2]" />
+        <item itemvalue="Docker.Part1/Dockerfile_V1: Compose Deployment" />
+        <item itemvalue="Docker.Part1/Dockerfile_V1: Compose Deployment" />
         <item itemvalue="Gradle.EmployeeTest" />
         <item itemvalue="Gradle.gradle_basic_demo [zip]" />
-        <item itemvalue="Gradle.gradle_basic_demo [zipSources]" />
-        <item itemvalue="Gradle.gradle_basic_demo [runServer]" />
-        <item itemvalue="Gradle.gradle_basic_demo [backupSources]" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -306,6 +923,35 @@
       <workItem from="1713174361860" duration="5354000" />
       <workItem from="1713195940407" duration="1910000" />
       <workItem from="1713198922836" duration="1603000" />
+      <workItem from="1714993007923" duration="752000" />
+      <workItem from="1715260467127" duration="12392000" />
+      <workItem from="1715332564953" duration="42000" />
+      <workItem from="1715336341589" duration="1115000" />
+      <workItem from="1715341467202" duration="746000" />
+      <workItem from="1715346056997" duration="10167000" />
+      <workItem from="1715593738107" duration="1478000" />
+      <workItem from="1715604477494" duration="264000" />
+      <workItem from="1715633946376" duration="8840000" />
+      <workItem from="1715701234449" duration="613000" />
+      <workItem from="1715703115126" duration="1552000" />
+      <workItem from="1715720414382" duration="2292000" />
+      <workItem from="1715805392589" duration="2067000" />
+      <workItem from="1715849841109" duration="5299000" />
+      <workItem from="1716147192085" duration="2318000" />
+      <workItem from="1716197129546" duration="1834000" />
+      <workItem from="1716213318741" duration="8769000" />
+      <workItem from="1716454431811" duration="1441000" />
+      <workItem from="1716456398653" duration="2284000" />
+      <workItem from="1716459878789" duration="693000" />
+      <workItem from="1716460749145" duration="755000" />
+      <workItem from="1716650926720" duration="271000" />
+      <workItem from="1716806394688" duration="10000" />
+      <workItem from="1717077994731" duration="5191000" />
+      <workItem from="1717083595381" duration="1981000" />
+      <workItem from="1717281270786" duration="1241000" />
+      <workItem from="1717446226846" duration="2177000" />
+      <workItem from="1717506699873" duration="595000" />
+      <workItem from="1717516716169" duration="6361000" />
     </task>
     <task id="LOCAL-00001" summary="Update the gitignore file">
       <option name="closed" value="true" />
@@ -355,7 +1001,79 @@
       <option name="project" value="LOCAL" />
       <updated>1712700136098</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="#25. Updated README File">
+      <option name="closed" value="true" />
+      <created>1715263233177</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715263233177</updated>
+    </task>
+    <task id="LOCAL-00008" summary="#26. Update properties configuration">
+      <option name="closed" value="true" />
+      <created>1715639580520</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715639580520</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Closes #27. Update the Vagrant file for the CA3 part 2">
+      <option name="closed" value="true" />
+      <created>1715720958692</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715720958692</updated>
+    </task>
+    <task id="LOCAL-00010" summary="#26 Update the DatabaseLoader to include another line">
+      <option name="closed" value="true" />
+      <created>1715721031226</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715721031226</updated>
+    </task>
+    <task id="LOCAL-00011" summary="#28 Added the README file for CA3 part 2">
+      <option name="closed" value="true" />
+      <created>1715721095059</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715721095059</updated>
+    </task>
+    <task id="LOCAL-00012" summary="#26. Update Vangrant file">
+      <option name="closed" value="true" />
+      <created>1715806396243</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715806396243</updated>
+    </task>
+    <task id="LOCAL-00013" summary="#26. Update Vangrant file">
+      <option name="closed" value="true" />
+      <created>1715806797648</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715806797648</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Closes #28. Update the README file.">
+      <option name="closed" value="true" />
+      <created>1715807239697</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715807239697</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Closes #28. Update the README file.">
+      <option name="closed" value="true" />
+      <created>1715807358171</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715807358171</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +1108,14 @@
     <MESSAGE value="Closes #11. Adding and update of the README file into the CA1" />
     <MESSAGE value="Closes #18. The src package was deleted and the another src pakage was copyed from the react-and-spring-data-rest-basic to the new folder." />
     <MESSAGE value="#19. Update build gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="#19. Update build gradle" />
+    <MESSAGE value="#25. Updated README File" />
+    <MESSAGE value="#26. Update properties configuration" />
+    <MESSAGE value="Closes #27. Update the Vagrant file for the CA3 part 2" />
+    <MESSAGE value="#26 Update the DatabaseLoader to include another line" />
+    <MESSAGE value="#28 Added the README file for CA3 part 2" />
+    <MESSAGE value="#26. Update Vangrant file" />
+    <MESSAGE value="Closes #28. Update the README file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Closes #28. Update the README file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
