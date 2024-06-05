@@ -1,0 +1,14 @@
+FROM gradle:jdk17 AS builder
+
+WORKDIR /usr/src/devops/
+
+ADD https://search.maven.org/remotecontent?filepath=com/h2database/h2/2.2.224/h2-2.2.224.jar h2.jar
+
+EXPOSE 8082
+EXPOSE 9092
+
+# Using the H2 Shell 
+# Create a new database called devops and create a new user called sa with password test
+RUN ["java", "-cp", "h2.jar", "org.h2.tools.Shell", "-url", "jdbc:h2:~/data/devops", "-user", "devops", "-password", "devops"]
+
+ENTRYPOINT ["java", "-cp", "h2.jar", "org.h2.tools.Server", "-web", "-webAllowOthers", "-tcp", "-tcpAllowOthers", "-ifNotExists"]

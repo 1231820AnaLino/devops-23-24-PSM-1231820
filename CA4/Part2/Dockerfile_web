@@ -1,0 +1,9 @@
+FROM gradle:jdk17 AS builder
+
+WORKDIR /usr/src/devops/
+
+COPY CA2/Part2/react-and-spring-data-rest-basic/build .
+
+EXPOSE 8080
+
+ENTRYPOINT ["java","-jar","./libs/react-and-spring-data-rest-basic-0.0.1-SNAPSHOT.jar"]
