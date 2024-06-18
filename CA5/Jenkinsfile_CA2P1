@@ -1,0 +1,43 @@
+pipeline {
+  agent any
+  stages {
+    //repository to checkout
+    stage('Checkout') {
+      steps {
+        echo 'Checking out repo...'
+        git branch: 'main', url: 'https://github.com/1231820AnaLino/devops-23-24-PSM-1231820'
+      }
+    }
+
+    //Assemble - This stage will build the project
+    stage('Assemble') {
+      steps {
+        echo 'Assembling project...'
+        dir('CA2/Part1/gradle_basic_demo') {
+          //Change gradlew permissions
+          sh 'chmod +x gradlew'
+          sh './gradlew assemble'
+        }
+      }
+    }
+
+    //Test stage to validate project
+    stage('Test') {
+      steps {
+        echo 'Testing project...'
+        dir('CA2/Part1/gradle_basic_demo') {
+          sh './gradlew test'
+        }
+      }
+    }
+
+    //Archive the generated binary file from the assemble stage
+    stage('Archive') {
+      steps {
+        dir('CA2/Part1/gradle_basic_demo') {
+          archiveArtifacts artifacts: 'build/libs/*.jar', fingerprint: true
+        }
+      }
+    }
+  }
+}
