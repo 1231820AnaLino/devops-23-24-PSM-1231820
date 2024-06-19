@@ -87,8 +87,8 @@ pipeline {
                   echo 'Publishing Docker image...'
                   dir(env.CA_DIR) {
                       script {
-                          def dockerImage = docker.build("1231820/devops-ca5:${env.BUILD_ID}", "-f DockerfileCA2P2 .")
-                          docker.withRegistry('https://index.docker.io/v1/', 'dockerhub_id') {
+                          def dockerImage = docker.build("1231820/devops:${env.BUILD_ID}", "-f DockerfileCA2P2 .")
+                          docker.withRegistry('https://index.docker.io/v1/', 'docker-id') {
                               dockerImage.push()
                           }
                       }
