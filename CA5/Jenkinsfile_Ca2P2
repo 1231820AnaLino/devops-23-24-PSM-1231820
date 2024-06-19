@@ -1,99 +1,97 @@
 pipeline {
-  agent any
+    agent any
 
-  environment {
-    CA_DIR = 'CA2/Part2/react-and-spring-data-rest-basic'
-  }
-
-  //CHECKOUT STAGE
-  stages {
-    stage('Checkout') {
-      steps {
-        echo 'Checking out repo...'
-        git branch: 'main', url: 'https://github.com/1231820AnaLino/devops-23-24-PSM-1231820.git'
-      }
+    environment {
+        CA_DIR = 'CA2/Part2/react-and-spring-data-rest-basic'
+        DOCKER_CREDENTIALS_ID = 'dockerhub_id'
+        DOCKER_IMAGE = '1231820/devops-ca5'
+        DOCKER_TAG = "${env.BUILD_ID}"
     }
 
-    //ASSEMBLE STAGE
-    stage('Assemble') {
-      steps {
-        echo 'Assembling project...'
-        dir(env.CA_DIR) {
-          //Change gradlew permissions
-          sh 'chmod +x gradlew'
-          sh './gradlew assemble'
+    stages {
+        stage('Checkout') {
+            steps {
+                echo 'Checking out repo...'
+                git branch: 'main', url: 'https://github.com/1231820AnaLino/devops-23-24-PSM-1231820.git'
+            }
         }
-      }
-    }
 
-    //TEST STAGE
-    stage('Test') {
-      steps {
-        echo 'Testing project...'
-        dir(env.CA_DIR) {
-          sh './gradlew test'
+        stage('Assemble') {
+            steps {
+                echo 'Assembling project...'
+                dir(env.CA_DIR) {
+                    sh 'chmod +x gradlew'
+                    sh './gradlew assemble'
+                }
+            }
         }
-      }
-    }
 
-    //GENERATE JAVADOCS AND PUBLISH IT
-    stage('Javadocs') {
-      steps {
-        echo 'Generating Javadocs...'
-        dir(env.CA_DIR) {
-          sh './gradlew javadoc'
+        stage('Test') {
+            steps {
+                echo 'Testing project...'
+                dir(env.CA_DIR) {
+                    sh './gradlew test'
+                }
+            }
         }
-        publishHTML(target: [
-                allowMissing: false,
-                alwaysLinkToLastBuild: true,
-                keepAll: true,
-                reportDir: 'CA2/Part2/react-and-spring-data-rest-basic/build/docs/javadoc',
-                reportFiles: 'index.html',
-                reportName: 'Javadoc'
-        ])
-      }
-    }
 
-    //ARCHIVE PROJECT
-    stage('Archive') {
-      steps {
-        echo 'Archiving project...'
-        dir(env.CA_DIR) {
-          archiveArtifacts artifacts: 'build/libs/*.jar', fingerprint: true
+        stage('Javadocs') {
+            steps {
+                echo 'Generating Javadocs...'
+                dir(env.CA_DIR) {
+                    sh './gradlew javadoc'
+                }
+                publishHTML(target: [
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: 'CA2/Part2/react-and-spring-data-rest-basic/build/docs/javadoc',
+                    reportFiles: 'index.html',
+                    reportName: 'Javadoc'
+                ])
+            }
         }
-      }
-    }
 
-//CREATE DOCKERFILE
+        stage('Archive') {
+            steps {
+                echo 'Archiving project...'
+                dir(env.CA_DIR) {
+                    archiveArtifacts artifacts: 'build/libs/*.jar', fingerprint: true
+                }
+            }
+        }
+
         stage('Create Dockerfile') {
             steps {
                 echo 'Creating Dockerfile...'
                 dir(env.CA_DIR) {
                     script {
                         def dockerfileContent = """
-                        FROM tomcat:9-jdk17-openjdk-slim
-                        COPY build/libs/react-and-spring-data-rest-basic-0.0.1-SNAPSHOT.jar /usr/local/tomcat/webapps/react-and-spring-data-rest-basic-0.0.1-SNAPSHOT.jar
+                        FROM gradle:jdk17
+                        WORKDIR /app
+                        COPY build/libs/*.jar app.jar
                         EXPOSE 8080
+                        ENTRYPOINT ["java", "-jar", "app.jar"]
                         """
-                        writeFile file: 'DockerfileCA2P2', text: dockerfileContent
+                        writeFile file: 'Dockerfile', text: dockerfileContent
                     }
                 }
             }
         }
 
-          //PUBLISH DOCKER IMAGE
-          stage('Publish Docker Image') {
-              steps {
-                  echo 'Publishing Docker image...'
-                  dir(env.CA_DIR) {
-                      script {
-                          def dockerImage = docker.build("1231820/devops:${env.BUILD_ID}", "-f DockerfileCA2P2 .")
-                          docker.withRegistry('https://index.docker.io/v1/', 'docker-id') {
-                              dockerImage.push()
-                          }
-                      }
-                  }
-              }
-          }
-      }
-  }
+        stage('Publish Docker Image') {
+            steps {
+                script {
+                    echo 'Publishing Docker image...'
+                    docker.withRegistry('https://index.docker.io/v1/', "${DOCKER_CREDENTIALS_ID}") {
+                        dir(env.CA_DIR) {
+                            def customImage = docker.build("${DOCKER_IMAGE}:${DOCKER_TAG}")
+                            customImage.push()
+                            customImage.push('latest')
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
