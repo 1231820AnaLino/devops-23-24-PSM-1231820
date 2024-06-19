@@ -2,10 +2,7 @@ pipeline {
     agent any
 
     environment {
-        CA_DIR = 'CA2/Part2/react-and-spring-data-rest-basic'
-        DOCKER_CREDENTIALS_ID = 'dockerhub_id'
-        DOCKER_IMAGE = '1231820/devops-ca5'
-        DOCKER_TAG = "${env.BUILD_ID}"
+        DIR = 'CA2/Part2/react-and-spring-data-rest-basic'
     }
 
     stages {
@@ -19,7 +16,7 @@ pipeline {
         stage('Assemble') {
             steps {
                 echo 'Assembling project...'
-                dir(env.CA_DIR) {
+                dir(env.DIR) {
                     sh 'chmod +x gradlew'
                     sh './gradlew assemble'
                 }
@@ -29,7 +26,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing project...'
-                dir(env.CA_DIR) {
+                dir(env.DIR) {
                     sh './gradlew test'
                 }
             }
@@ -38,7 +35,7 @@ pipeline {
         stage('Javadocs') {
             steps {
                 echo 'Generating Javadocs...'
-                dir(env.CA_DIR) {
+                dir(env.DIR) {
                     sh './gradlew javadoc'
                 }
                 publishHTML(target: [
@@ -55,7 +52,7 @@ pipeline {
         stage('Archive') {
             steps {
                 echo 'Archiving project...'
-                dir(env.CA_DIR) {
+                dir(env.DIR) {
                     archiveArtifacts artifacts: 'build/libs/*.jar', fingerprint: true
                 }
             }
@@ -64,7 +61,7 @@ pipeline {
         stage('Create Dockerfile') {
             steps {
                 echo 'Creating Dockerfile...'
-                dir(env.CA_DIR) {
+                dir(env.DIR) {
                     script {
                         def dockerfileContent = """
                         FROM gradle:jdk17
@@ -82,7 +79,7 @@ pipeline {
            stage('Publish Docker Image') {
                     steps {
                         echo 'Publishing Docker image...'
-                        dir(env.CA_DIR) {
+                        dir(env.DIR) {
                             script {
                                 def dockerImage = docker.build("1231820/devops-ca5:${env.BUILD_ID}", "-f DockerfileCa2P2 .")
                                 docker.withRegistry('https://index.docker.io/v1/', 'dockerhub_id') {
